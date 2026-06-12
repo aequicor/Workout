@@ -26,9 +26,15 @@ The default output paths are:
 - `programms/<date>-<slug>.docx`
 - `programms/<date>-<slug>-progress.xlsx`
 
+Validate an input before building:
+
+```powershell
+python utils/build_workout_artifacts.py utils/sample_plan.json --validate-only
+```
+
 ## Input Shape
 
-Use `utils/sample_plan.json` as the canonical example. Each exercise should include:
+Use `utils/sample_plan.json` as the canonical example and `utils/workout_plan.schema.json` as the schema reference. Each exercise should include:
 
 - `block`
 - `exercise`
@@ -46,3 +52,9 @@ Use `utils/sample_plan.json` as the canonical example. Each exercise should incl
 python utils/build_workout_docx.py utils/sample_plan.json
 python utils/build_progress_tracker_xlsx.py utils/sample_plan.json
 ```
+
+## Agent Notes
+
+- Create generated working plan JSON files in `res/`, not in the repository root.
+- Do not include biometric intake in generated JSON unless the user clearly allowed local storage.
+- Missing `visual_source` warnings mean the plan still needs verified exercise-source links.

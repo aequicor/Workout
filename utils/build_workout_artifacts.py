@@ -16,6 +16,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output-dir", default="programms", help="Output directory for generated artifacts.")
     parser.add_argument("--docx-only", action="store_true", help="Only build the DOCX program.")
     parser.add_argument("--xlsx-only", action="store_true", help="Only build the XLSX progress tracker.")
+    parser.add_argument("--validate-only", action="store_true", help="Validate the plan JSON and print planned outputs.")
     parser.add_argument("--log-rows", type=int, default=300, help="Number of editable log rows for the tracker.")
     return parser.parse_args()
 
@@ -27,6 +28,16 @@ def main() -> int:
 
     plan = load_plan(args.plan_json)
     docx_path, xlsx_path = default_output_paths(plan, Path(args.output_dir))
+
+    if args.validate_only:
+        print(f"valid: {args.plan_json}")
+        if not args.xlsx_only:
+            print(f"docx: {docx_path}")
+        if not args.docx_only:
+            print(f"xlsx: {xlsx_path}")
+        for warning in source_warnings(plan):
+            print(f"warning: {warning}")
+        return 0
 
     built: list[Path] = []
     if not args.xlsx_only:

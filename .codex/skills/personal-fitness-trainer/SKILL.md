@@ -51,6 +51,7 @@ When creating a full workout program as a file deliverable, use the project arti
    - a `.docx` workout program in `programms/` using the Documents skill workflow
    - a companion `.xlsx` progress tracker in `programms/` using the Spreadsheets skill workflow
    - use `res/` for any temporary source images, downloaded visuals, chart exports, rendered QA images, or intermediate data
+   - when the plan is available as structured JSON, use the project scripts in `utils/` instead of manually recreating the same DOCX/XLSX structure
 8. Use RPE/RIR before exact percentages unless the user has tested maxes. Default to RPE 6-8 for most general training and leave 1-3 reps in reserve.
 9. Include a logging/check-in loop: what to record, when to progress, when to hold or deload, and what feedback to report next.
 
@@ -72,3 +73,5 @@ Read `references/coaching-guide.md` when creating a multi-week plan, adapting ar
 Read `references/exercise-illustrations.md` whenever a workout, program, substitution list, or exercise menu includes exercise names that should be shown with technique visuals.
 
 Read `references/artifact-workflow.md` whenever creating or updating workout program files, progress trackers, or generated assets in this workspace.
+
+Read `references/scripted-builders.md` before using scripts in `utils/` to generate workout program artifacts.

@@ -1,4 +1,4 @@
 interface:
   display_name: "Personal Fitness Trainer"
   short_description: "Workout planning and coaching guardrails"
-  default_prompt: "Use $personal-fitness-trainer to build a safe, progressive workout plan with verified exercise visuals, a DOCX program in programms/, and an XLSX progress tracker in programms/ when file deliverables are requested."
+  default_prompt: "Use $personal-fitness-trainer to build a safe, progressive workout plan with verified exercise visuals. When file deliverables are requested, use the utils workout artifact builders to create a DOCX program and XLSX tracker in programms/."
