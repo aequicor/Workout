@@ -1,0 +1,26 @@
+# Local/generated workout artifacts
+res/*
+!res/.gitkeep
+programms/*
+!programms/.gitkeep
+
+# Office temporary files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Runtime/build artifacts
+outputs/
+node_modules/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.bak
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
