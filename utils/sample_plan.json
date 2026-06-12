@@ -1,0 +1,139 @@
+{
+  "title": "Beginner Full Body Strength Plan",
+  "subtitle": "Sample 2-week template for testing artifact builders",
+  "date": "2026-06-12",
+  "slug": "beginner-full-body-sample",
+  "client": {
+    "name": "Sample client"
+  },
+  "overview": [
+    "A conservative full-body starter plan for practicing movement quality, building consistency, and leaving 2-4 reps in reserve on most sets.",
+    "Replace exercises if equipment is unavailable or if a movement causes pain."
+  ],
+  "assumptions": [
+    "Beginner or returning trainee.",
+    "Three 45-minute sessions per week.",
+    "No known pain or medical restrictions provided."
+  ],
+  "safety_notes": [
+    "Stop or modify any exercise that causes sharp pain, dizziness, numbness, or form breakdown.",
+    "Keep the first week easy enough to finish with clean technique."
+  ],
+  "schedule": [
+    {
+      "week": 1,
+      "day": "Day 1",
+      "focus": "Full body A",
+      "duration": "45 min"
+    },
+    {
+      "week": 1,
+      "day": "Day 2",
+      "focus": "Full body B",
+      "duration": "45 min"
+    }
+  ],
+  "workouts": [
+    {
+      "week": 1,
+      "day": "Day 1",
+      "focus": "Full body A",
+      "exercises": [
+        {
+          "block": "Warmup",
+          "exercise": "Easy bike or brisk walk",
+          "visual_source": "https://www.acefitness.org/resources/everyone/exercise-library/",
+          "sets_reps": "5-8 min",
+          "intensity": "Easy",
+          "rest": "-",
+          "notes": "Nasal breathing if possible."
+        },
+        {
+          "block": "Main",
+          "exercise": "Goblet squat",
+          "visual_source": "https://www.strengthlog.com/exercise-directory/",
+          "sets_reps": "3 x 8-10",
+          "intensity": "RPE 6",
+          "rest": "90 sec",
+          "notes": "Keep knees tracking over toes and torso braced."
+        },
+        {
+          "block": "Main",
+          "exercise": "Incline push-up",
+          "visual_source": "https://www.acefitness.org/resources/everyone/exercise-library/",
+          "sets_reps": "3 x 6-10",
+          "intensity": "RPE 6-7",
+          "rest": "90 sec",
+          "notes": "Use a bench or sturdy elevated surface."
+        },
+        {
+          "block": "Accessory",
+          "exercise": "One-arm dumbbell row",
+          "visual_source": "https://www.muscleandstrength.com/exercises",
+          "sets_reps": "3 x 10/side",
+          "intensity": "RPE 7",
+          "rest": "60 sec",
+          "notes": "Pause briefly at the top."
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": "Day 2",
+      "focus": "Full body B",
+      "exercises": [
+        {
+          "block": "Warmup",
+          "exercise": "Dynamic mobility circuit",
+          "visual_source": "https://www.acefitness.org/resources/everyone/exercise-library/",
+          "sets_reps": "6 min",
+          "intensity": "Easy",
+          "rest": "-",
+          "notes": "Hips, shoulders, ankles."
+        },
+        {
+          "block": "Main",
+          "exercise": "Romanian deadlift",
+          "visual_source": "https://www.strengthlog.com/exercise-directory/",
+          "sets_reps": "3 x 8",
+          "intensity": "RPE 6",
+          "rest": "2 min",
+          "notes": "Hinge at hips and keep the load close."
+        },
+        {
+          "block": "Main",
+          "exercise": "Dumbbell shoulder press",
+          "visual_source": "https://www.muscleandstrength.com/exercises",
+          "sets_reps": "3 x 8-10",
+          "intensity": "RPE 6-7",
+          "rest": "90 sec",
+          "notes": "Avoid leaning back."
+        },
+        {
+          "block": "Core",
+          "exercise": "Dead bug",
+          "visual_source": "https://www.acefitness.org/resources/everyone/exercise-library/",
+          "sets_reps": "2 x 8/side",
+          "intensity": "Controlled",
+          "rest": "45 sec",
+          "notes": "Keep low back quiet against the floor."
+        }
+      ]
+    }
+  ],
+  "progression_rules": [
+    "When all sets reach the top of the rep range at the target RPE, increase load slightly next time.",
+    "Hold load steady if form breaks down or soreness is unusually high."
+  ],
+  "substitution_rules": [
+    "Swap exercises for the same movement pattern first.",
+    "Choose the simpler variation when technique or recovery is uncertain."
+  ],
+  "cooldown": [
+    "Walk 3-5 minutes and use light mobility for any tight areas."
+  ],
+  "check_in": [
+    "Log load, reps or time, RPE/RIR, pain flag, and notes after each session.",
+    "Review completion, soreness, energy, and pain trend weekly."
+  ]
+}

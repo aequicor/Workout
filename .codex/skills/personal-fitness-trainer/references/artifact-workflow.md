@@ -18,6 +18,8 @@ When the user asks for a complete workout program as an artifact, create both:
 
 Use a concise lowercase ASCII slug based on the goal or audience, for example `beginner-strength`, `home-fat-loss`, or `hypertrophy-4-week`.
 
+Use `utils/build_workout_artifacts.py` when a workout plan is available as structured JSON and the user wants generated files. Use `utils/sample_plan.json` as the input schema example.
+
 ## DOCX Program Rules
 
 - Use the Documents skill for `.docx` creation and verification.
