@@ -11,6 +11,8 @@ For workout planning, exercise substitutions, progressive overload, warmups, coo
 
 Keep fitness advice conservative, personalized to the user's stated constraints, and clearly outside medical diagnosis or treatment.
 
+Before composing a workout plan, ask for the person's minimum useful biometric data and make every field skippable. Ask for explicit permission before saving biometric intake locally; save it only in `res/` after clear consent, otherwise do not write it to disk.
+
 When workout plans include exercises, include sourced visual technique references from specialized exercise/coaching sources. Do not create or generate exercise illustrations manually.
 
 Workspace artifact conventions:

@@ -42,6 +42,8 @@ Use a concise lowercase ASCII slug based on the goal or audience, for example `b
 - `res/` and generated files in `programms/` are local working/output areas and should not be committed by default.
 - Keep `.gitkeep` files so the directories exist in fresh clones.
 - Do not commit private health data, personal workout logs, downloaded copyrighted media, rendered previews, or generated personal program files unless the user explicitly asks.
+- Before saving biometric intake, ask for explicit permission to store it locally in `res/`.
+- If permission is granted, save only the coaching-relevant biometric intake in a dated local file such as `res/YYYY-MM-DD-biometric-intake.md` or `.json`; if permission is declined, missing, or ambiguous, do not create a biometric intake file.
 
 ## Final Response Pattern
 

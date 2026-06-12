@@ -20,6 +20,16 @@ Use these as broad health targets, not as rigid prescriptions:
 
 Ask only what is needed for the task.
 
+Before composing a workout plan, ask for biometric intake and storage consent:
+
+- Required-to-ask biometrics: age, height, body weight.
+- Optional relevant biometrics: resting heart rate, blood pressure, waist/hip measurement, recent body-composition estimate, tested maxes or recent performance metrics.
+- Ask for sex/gender only when relevant to safety screening, pregnancy/postpartum considerations, body-composition estimates, or a user-requested goal; make it explicitly optional.
+- Tell the user any biometric field can be skipped and estimates are acceptable.
+- Ask whether the user permits saving the biometric intake locally in `res/` for future plan updates.
+- Save biometric intake only after clear consent, using a dated local file such as `res/YYYY-MM-DD-biometric-intake.md` or `.json`.
+- If the user declines, does not answer, or gives ambiguous consent, do not save the data; use it only for the current response.
+
 Core:
 
 - Goal: strength, muscle, fat loss, endurance, mobility, general health, sport, return to routine.
